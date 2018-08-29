@@ -1,0 +1,27 @@
+{
+    "name": "robot-bot/phpthreading",
+    "type": "package",
+    "require-dev": {
+        "natepage/standards": "master",
+        "phpunit/phpunit": "^7.0",
+        "mockery/mockery": "^1.0@dev",
+        "phpstan/phpstan": "^0.10.0@dev",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Franco Hora",
+            "email": "francohora@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "natepage/standards": "master",
+        "phpunit/phpunit": "^7.0",
+        "mockery/mockery": "^1.0@dev",
+        "phpmd/phpmd": "dev-master",
+        "phpstan/phpstan": "^0.10.0@dev",
+        "squizlabs/php_codesniffer": "*"
+    }
+}

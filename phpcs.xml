@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="custom-ruleset">
+    <description>Custom rules</description>
+    <rule ref="PSR2"/>
+    <!-- <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/> -->
+    <rule ref="Squiz.NamingConventions.ValidVariableName"/>
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120"/>
+            <property name="absoluteLineLimit" value="0"/>
+        </properties>
+    </rule>
+    <rule ref="Generic.Formatting.MultipleStatementAlignment">
+        <properties>
+            <property name="maxPadding" value="8"/>
+            <property name="ignoreMultiLine" value="true"/>
+            <property name="error" value="true"/>
+        </properties>
+    </rule>
+</ruleset>
